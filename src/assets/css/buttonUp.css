@@ -1,0 +1,7 @@
+button {
+    border-radius: 6px;
+    padding: 3px;
+    background: #f97316;
+    color: white;
+    hover: #ffa000;
+}
