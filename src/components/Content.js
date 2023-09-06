@@ -1,6 +1,8 @@
 import React, { useEffect } from 'react'
-import img_content from '../assets/images/img-content.png'
 import { Link } from 'react-router-dom'
+
+import img_content from '../assets/images/img-content.png'
+import area from '../assets/images/area-branding.jpeg'
 
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
@@ -62,8 +64,8 @@ const Content = () => {
             </div>
         </div>
         <div className="w-full md:w-4/12 px-12 md:px-4 ml-auto mr-auto" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
-            <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-2 shadow-lg rounded-full bg-white">
-                <img alt="..." src={img_content} className="max-w-full w-16 mx-auto bg-white" />
+            <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-50 h-50 mb-2 shadow-lg rounded bg-white">
+                <img alt="..." src={area} className="max-w-full w-30 mx-auto bg-white" />
             </div>
             <h3 className="text-3xl mb-2 font-semibold leading-normal text-black"> Gayeng Mas Abadi</h3>
             <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-black text-justify"> Tahun 2018 berdiri satu unit usaha dengan nama Media Iklan namun tidak memiliki badan hukum, Media Iklan bergerak dalam bidang jasa periklanan/ advertisingbaik digital maupun konvensional. </p>   

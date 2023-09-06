@@ -20,15 +20,15 @@ const Digital_Marketing = () => {
     <>
         {/* Digital Marketing  */}
         <div className='px-4'>
-            <h1 className='mt-32 text-6xl font-bold text-left px-4 text-orange-700 uppercase'>Digital Marketing</h1>
+            <h1 className='mt-32 text-4xl md:text-6xl font-bold text-left px-4 text-orange-700 uppercase'>Digital Marketing</h1>
         </div>
         <div className='px-4 mb-16'>
             <div className="flex items-center justify-center py-4 md:py-8 flex-wrap px-4 mt-4">
-                <h1 className='text-orange-700 text-4xl font-bold'>Spesifikasi Aplikasi</h1>
+                <h1 className='text-orange-700 text-2xl md:text-4xl font-bold'>Spesifikasi Aplikasi</h1>
             </div>
             <div class="grid gap-4 grid-cols-2 py-8">
-                <div className='col-span-2 text-3xl text-orange-700 font-bold'>Software</div>
-                <div className='text-2xl text-right text-orange-700 font-bold'>
+                <div className='col-span-2 text-2xl md:text-3xl text-orange-700 font-bold'>Software</div>
+                <div className='text-2xl md:text-2xl text-right text-orange-700 font-bold'>
                     Mobile Apps :
                 </div>
                 <div className='text-2xl text-left text-orange-700 font-bold'>
@@ -65,7 +65,7 @@ const Digital_Marketing = () => {
                     <img src={ubuntu} />
                 </div>
             </div>
-            <h1 className='text-orange-700 text-3xl font-bold py-16'>Aplikasi yang sudah di buat</h1>
+            <h1 className='text-orange-700 text-2xl md:text-2xl font-bold py-16'>Aplikasi yang sudah di buat</h1>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 px-4">
                 <div className='px-16 py-4 drop-shadow-lg'>
                     <img src='https://gayengmasabadi.com/wp-content/uploads/2023/03/apk-alquran-945x2048.jpg' />
@@ -77,7 +77,7 @@ const Digital_Marketing = () => {
                     <img src='https://gayengmasabadi.com/wp-content/uploads/2023/03/apk-umroh-945x2048.jpg' />
                 </div>
             </div>
-            <div className="grid grid-cols-2 md:grid-cols-2 gap-4 px-4">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 px-4">
                 <div className='px-16 py-4 drop-shadow-lg'>
                     <h3 className='text-black text-left font-bold'>Software Development</h3>
                     <p className='text-black text-left'>Software Consulting</p>
@@ -93,7 +93,7 @@ const Digital_Marketing = () => {
                     <p className='text-black text-left'>Systemintegration</p>
                 </div>
             </div>
-            <h1 className='text-orange-700 text-3xl font-bold py-16'>SOSMED MANAGEMENT</h1>
+            <h1 className='text-orange-700 text-2xl font-bold py-16 md:text-3xl'>SOSMED MANAGEMENT</h1>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 px-4">
                 <div className='px-16 py-4 drop-shadow-lg'>
                     <img src='https://gayengmasabadi.com/wp-content/uploads/2023/03/sosial-media.jpg' />
